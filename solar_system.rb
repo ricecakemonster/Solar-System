@@ -33,11 +33,7 @@ class SolarSystem
   end
 
   def add_a_list(more_planets)
-    n = 0
-    more_planets.planets.length.times do
-    @planets << more_planets.planets[n]
-    n =+ 1
-    end
+    @planets += more_planets.planets
   end
 
   def find_planet(planet_name) #solar_system.find_planet(whatever).distance_from_the_sun
