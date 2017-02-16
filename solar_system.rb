@@ -1,3 +1,4 @@
+#testing out the github commands
 class Planet
   attr_accessor :name, :distance_from_the_sun, :radius, :mass, :moons, :density, :gravity, :rate_solar_rotation
 
